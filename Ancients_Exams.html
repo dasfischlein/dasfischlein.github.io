@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Kleinschmidt - Ancients Exams</title>
+<style type="text/css">
+<!--
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #666666;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 760px;
+	margin: 0 auto;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+	background-color: #D1D1D1;
+}
+.oneColElsCtrHdr #header {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background-color: #666;
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.oneColElsCtrHdr #mainContent {
+	font-size: 12pt;
+	background-color: #D1D1D1;
+}
+.oneColElsCtrHdr #footer {
+	padding: 0 10px;
+	background-color: #999798;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+	font-size: 10px;
+}
+.oneColElsCtrHdr #container #mainContent table {
+	font-size: 10%;
+}
+.oneColElsCtrHdr #container #mainContent table {
+	font-size: 10pt;
+	color: #2A2310;
+}
+.oneColElsCtrHdr #container #mainContent table tr th p {
+	font-size: 10px;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+</head>
+
+<body class="oneColElsCtrHdr" onload="MM_preloadImages('OverviewButton.gif','ScheduleButton.gif','ExamsButton.gif','GradebookButton.gif','ContactButton.gif')">
+
+<div id="container">
+  <div id="header"> 
+    <p><img src="AncientsBanner.jpg" width="760" height="143" /></p>
+<!-- end #header -->
+    
+    <table border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><a href="/~kleinsch/Ancients.html" target="_top" onclick="MM_nbGroup('down','group1','Overview','OverviewButton.gif',1)" onmouseover="MM_nbGroup('over','Overview','OverviewButton.gif','OverviewButton.gif',1)" onmouseout="MM_nbGroup('out')"><img src="OverviewButton.gif" alt="" name="Overview" width="152" height="30" border="0" id="Overview" onload="" /></a></td>
+        <td><a href="/~kleinsch/Ancients_Schedule.html" target="_top" onclick="MM_nbGroup('down','group1','Schedule','ScheduleButton.gif',1)" onmouseover="MM_nbGroup('over','Schedule','ScheduleButton.gif','ScheduleButton.gif',1)" onmouseout="MM_nbGroup('out')"><img src="ScheduleButton.gif" alt="" name="Schedule" width="152" height="30" border="0" id="Schedule" onload="" /></a></td>
+        <td><a href="/~kleinsch/Ancients_Exams.html" target="_top" onclick="MM_nbGroup('down','group1','Exams','ExamsButton.gif',1)" onmouseover="MM_nbGroup('over','Exams','ExamsButton.gif','ExamsButton.gif',1)" onmouseout="MM_nbGroup('out')"><img src="ExamsButton.gif" alt="" name="Exams" width="152" height="30" border="0" id="Exams" onload="" /></a></td>
+        <td><a href="/~kleinsch/Ancients_Gradebook.html" target="_top" onclick="MM_nbGroup('down','group1','Gradebook','GradebookButton.gif',1)" onmouseover="MM_nbGroup('over','Gradebook','GradebookButton.gif','GradebookButton.gif',1)" onmouseout="MM_nbGroup('out')"><img src="GradebookButton.gif" alt="" name="Gradebook" width="152" height="30" border="0" id="Gradebook" onload="" /></a></td>
+        <td><a href="dasfischlein@gmail.com" target="_top" onclick="MM_nbGroup('down','group1','Contact','ContactButton.gif',1)" onmouseover="MM_nbGroup('over','Contact','ContactButton.gif','ContactButton.gif',1)" onmouseout="MM_nbGroup('out')"><img src="ContactButton.gif" alt="" name="Contact" width="152" height="30" border="0" id="Contact" onload="" /></a></td>
+      </tr>
+    </table>
+  </div>
+  <div id="mainContent">
+    <p>&nbsp;</p>
+    <p>Questions will be posted here roughly one week prior to the exam. 5-6 questions will be posted, and I will choose 1-3 of these questions on the day of the exam.</p>
+    <p>On exam day:</p>
+    <p>Bring a large, blank blue book (or two) to the exam.</p>
+    <p>In explaining each argument, include a description of the intuitive idea behind the argument, and also a justification for each premise.  Don’t forget to define all the technical terms used (i.e., the relevant terms I defined in class).</p>
+    <p>Also:  whenever you’re presenting an objection to an argument, don’t forget to say which premise (or which conclusion’s validity) is under attack.</p>
+<p>____________________________________________________________________________</p>
+<p>Ancients Midterm Study Guide:</p>
+<p>Midterm Exam Study Questions:  History of Ancient Philosophy</p>
+<p>Note:  you must bring your own blue books for the exam.</p>
+<p>1.  Thales claimed that everything is water.  Explain what it means to be an eliminativist about every material entity except water.  Explain what it means to be a reductivist about every material entity except water.  Explain what it means to think everything supervenes on water.  Which view(s) entail that the sentence “this pen exists” false?  Which view(s) entail that the sentence “God exists” false?  Which view(s) entail that everything is made of water?<br />
+  So the form of your answer should be:<br />
+              i. Explanation of Eliminativism about every material entity except water.<br />
+              ii. Explanation of Reductivism about every material entity except water.<br />
+              iii. Explanation of the claim that every material entity supervenes on water.<br />
+              iv. Statement of which view(s) entail that the sentence “this pen exists” is                              false.<br />
+              v.  Statement of which view(s) entail that the sentence “God exists” is false.<br />
+              vi.  Statement of which view(s) entail that everything is made of water.</p>
+<p>2.  Formulate Leibniz’s Identity of Indiscernibles.  Formulate Leibniz’s Indiscernibility of Identicals.  Say what it is for <em>x</em> and <em>y</em> to be qualitatively identical. Give an example of qualitative identity.  Describe the Max Black Spheres Case, and say what it is attempting to show.<br />
+              i. Formulation of Leibniz’s Identity of Indiscernibles.<br />
+              ii. Formulation of Leibniz’s Indiscernibility of Identicals.<br />
+              iii. Complete this:  <em>x</em> is qualitatively identical to <em>y</em> =df __________________.<br />
+              iv. Example of qualitative identity.<br />
+              v.  Description of the Max Black Spheres case.<br />
+              vi.  Discussion of what the case is attempting to show.</p>
+<p>3.  Formulate Pluralism.  Present and explain the Pro-Pluralism argument.  Formulate The Unity of Opposites.  Discuss how Heraclitus used this as an objection to the Pro-Pluralism Argument.  State something Heraclitus took to be an example that supports the Unity of Opposites.<br />
+              i. Formulation of Pluralism.<br />
+              ii. Basic idea behind the Pro-Pluralism Argument, in your own words.<br />
+              iii. The Pro-Pluralism Argument, in premise/conclusion form.<br />
+              iv. Justifications for each of the premises in the Pro-Pluralism Argument.<br />
+              v.  Formulation of the Unity of Opposites.<br />
+              vi.  Description of how Heraclitus used (v) to object to the Pro-Pluralism                                 Argument.<br />
+              vii.  An example that Heraclitus took to support the Unity of Opposites.</p>
+<p>4.  Formulate Monism.  Present and explain the Must-Have Monism Argument.  Say whether the argument is valid, and explain why or why not.  Describe what you take to be the strongest objection to the Must-Have Monism argument.<br />
+              i. Formulation of Monism.<br />
+              ii. The basic idea behind the Must-Have Monism Argument, in your own                                 words.<br />
+              iii. The Must-Have Monism Argument, in premise/conclusion form.<br />
+              iv. Justifications for each premise of the Must-Have Monism argument.<br />
+              v.  Is the argument valid?<br />
+              vi.  Why or why not?<br />
+              vii.  Describe what you take to be the strongest objection to the Must-Have                            Monism Argument.</p>
+<p>5.  Formulate the principle of Ontological Parsimony.  Describe how Bertrand Russell attempted to claim that theories that are more ontologically parsimonious are more likely to be true:  (i) give the examples I presented in class of the pair of theories, one of which is more parsimonious, and (ii) explain why Russell thought one would be more likely to be true in this case.  (Note:  there are things we should say in response to Russell’s defense of Ontological Parsimony, but I won’t ask you about them.)<br />
+              i. Formulation of the principle of Ontological Parsimony.<br />
+              ii. Description of the pair of theories I presented in class, related to this.<br />
+              iii. Explanation of why Russell thought that the more parsimonious of the two                       theories would have been more likely to be true.</p>
+<p>------------------------------------------------------------------------------------------------------------<br />
+  In preparing for the short-answer section of the exam, you should know:</p>
+<ul>
+  <li>what it is for an argument to be valid</li>
+  <li>what it is for an argument to be sound</li>
+  <li>how to translate claims into their logical form</li>
+</ul>
+<p>I also recommend looking through the arguments we discussed when covering Logic.  You should be able to recognize when arguments of that sort are valid and when they’re invalid.</p>
+<p>Finally, an important note:  <strong>prepare for <em>every</em> one of the essay questions.</strong>  It’s not uncommon for students to tell me, “I studied for every question except the one you asked!”  Don’t take chances.  Any one (or two) of these questions, or combinations of pieces of several of them, could be on the exam.</p>
+<p>Also, if you are wondering about how I’m using the terms “present”, “evaluate”, “formulate”, and “explain”, look on the section of the syllabus under <em>For Your Reference</em>.  That section of the syllabus will also be given to you on exam day.  You will not be allowed to use notes (obviously).</p>
+<p>&nbsp;</p>
+  </div>
+  <div id="footer">
+    <p>Last Updated: July 24, 2012</p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>
